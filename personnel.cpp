@@ -22,3 +22,7 @@
         }
         return s;
     }
+  Personnel::~Personnel() 
+    {
+    this->perso.clear();
+}
