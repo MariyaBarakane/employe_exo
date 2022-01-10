@@ -10,6 +10,7 @@ public:
         Personnel(string nom, float indice);
         void add_perso(Employe* E) const ;
         float sommesal() const ;
+        ~Personnel() ;
       
 };
 
