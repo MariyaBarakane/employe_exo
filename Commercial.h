@@ -11,6 +11,6 @@ public:
     Commercial(string nom, float indice);
     void ventesdumois(int v, int inte);
     float calculsalairecommerciaux();
-    ~Commercial() 
+    ~Commercial() ;
 
 }
