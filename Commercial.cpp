@@ -1,4 +1,5 @@
 #include "Commercial.h"
+#include <iostream>
 Commercial::Commercial(string nom, float indice)
     :Employe(nom, indice)
 {
@@ -20,4 +21,7 @@ float Commercial::calculsalairecommerciaux()
 
 
     return sal ;
+}
+Commercial::~Commercial() {
+    std::cout<<"destructeur de la classe Commercial "<<std::endl;
 }
